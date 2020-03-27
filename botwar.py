@@ -21,16 +21,16 @@ tkn = json.load(codecs.open("tokens.json","r","utf-8"))
 line = LINE(tkn["tokens"][0], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
 print('主機-{} 登入成功 '.format(line.profile.displayName))
 pb1BOG = LINE(tkn["tokens"][1], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
-print('1號機-{} 登入成功 '.format(pb1.profile.displayName))
+print('1號機-{} 登入成功 '.format(pb1BOG.profile.displayName))
 pb2BOG = LINE(tkn["tokens"][2], appName="IOS\t8.14.2\tIphone X\t8.1.0") 
-print('2號機-{} 登入成功 '.format(pb2.profile.displayName))
+print('2號機-{} 登入成功 '.format(pb2BOG.profile.displayName))
 print("登入所花時間為"+str(format_timespan(time.time() - botStart)))
 oepoll = OEPoll(line)
 lineProfile = line.getProfile()
 lineSettings = line.getSettings()
 myBOG = line.profile.mid
-pb1BOG = pb1.getProfile().mid
-pb2BOG = pb2.getProfile().mid
+pb1BOG = pb1BOG.getProfile().mid
+pb2BOG = pb2BOG.getProfile().mid
 mid = line.getProfile().mid
 Bots = [myBOG,pb1BOG,pb2BOG]
 settings = {
