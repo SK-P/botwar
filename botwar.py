@@ -33,12 +33,12 @@ pb1BOG = pb1BOG.getProfile().mid
 pb2BOG = pb2BOG.getProfile().mid
 mid = line.getProfile().mid
 Bots = [myBOG,pb1BOG,pb2BOG]
+owner = ["u0f3ff7c8aba42b6725638265658aa5b1"] #MID LOE
 settings = {
     "kunci": False,
     "kata": "prank",
     "blacklist": {}
 }
-owner = ["u0f3ff7c8aba42b6725638265658aa5b1"] #MID LOE
 Drop_Xv = "u0f3ff7c8aba42b6725638265658aa5b1" #ID_DROPING_BOTS
 Xv_WIN = "u0f3ff7c8aba42b6725638265658aa5b1" #ID_WINDOWS_XP
 Xv_LAN = "u0f3ff7c8aba42b6725638265658aa5b1" #ID_SERVER_LAN
@@ -185,7 +185,7 @@ def bot(op):
                         elif prankbot == "bye":
                             pb1.leaveGroup(msg.to)
                             pb2.leaveGroup(msg.to)
-                            line.sendMessage(to,"====owner creator=====")
+                            line.sendMessage(to,"==== creator=====")
                             line.sendContact(to, 'u0ac948397fbc732bd3bc5ca273faa698')
                             line.leaveGroup(msg.to)
                         elif prankbot == "out":
