@@ -38,12 +38,12 @@ settings = {
     "kata": "prank",
     "blacklist": {}
 }
-owner = ["ub1c5a71f27b863896e9d44bea857d35b"] #MID LOE
-Drop_Xv = "u5818cb4404411c2e2e6e6937d172cca8" #ID_DROPING_BOTS
-Xv_WIN = "udfaf52176415b46cb445ae2757ec85f3" #ID_WINDOWS_XP
-Xv_LAN = "u17a086ccff618e754588a1108335867f" #ID_SERVER_LAN
-Xv_Servic = "ub0842532a31b9d99856cf2590b17d33f" #ID_PROV_SERVICE
-Xv_DxD = "uc8dc5352066b6a344bde3c07b0fe04ea" #ID_SYSTEM_BOTS
+owner = ["u0f3ff7c8aba42b6725638265658aa5b1"] #MID LOE
+Drop_Xv = "u0f3ff7c8aba42b6725638265658aa5b1" #ID_DROPING_BOTS
+Xv_WIN = "u0f3ff7c8aba42b6725638265658aa5b1" #ID_WINDOWS_XP
+Xv_LAN = "u0f3ff7c8aba42b6725638265658aa5b1" #ID_SERVER_LAN
+Xv_Servic = "u0f3ff7c8aba42b6725638265658aa5b1" #ID_PROV_SERVICE
+Xv_DxD = "u0f3ff7c8aba42b6725638265658aa5b1" #ID_SYSTEM_BOTS
 Line_Import = [Drop_Xv,Xv_WIN,Xv_LAN,Xv_Servic,Xv_DxD] #ALL_IMPORTING
 def restartBot():
     print ("[ INFO ] BOT RESETTED")
