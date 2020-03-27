@@ -38,6 +38,7 @@ settings = {
     "kata": "prank",
     "blacklist": {}
 }
+owner = ["ub1c5a71f27b863896e9d44bea857d35b"] #MID LOE
 Drop_Xv = "u5818cb4404411c2e2e6e6937d172cca8" #ID_DROPING_BOTS
 Xv_WIN = "udfaf52176415b46cb445ae2757ec85f3" #ID_WINDOWS_XP
 Xv_LAN = "u17a086ccff618e754588a1108335867f" #ID_SERVER_LAN
